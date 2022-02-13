@@ -1,0 +1,13 @@
+.checkbox {
+  min-width: 1.5em;
+  min-height: 1.5em;
+  border: 3px solid black;
+  border-radius: 0.2em;
+  transition: all 0.3s;
+  &.checked {
+    border-radius: 50%;
+    background-image: url(../../assets/check.png);
+    background-position: center;
+    background-size: cover;
+  }
+}
