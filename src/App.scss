@@ -9,5 +9,7 @@
     height: calc(100% - 70px);
     width: 90%;
     box-shadow: 2px 20px 20px grey;
+    display: flex;
+    justify-content: center;
   }
 }

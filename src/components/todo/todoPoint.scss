@@ -1,27 +1,41 @@
 .todo-point {
-  width: 80%;
+  width: 100%;
   border: 1px solid grey;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   transition: all 0.3s;
   background-color: white;
-  cursor: pointer;
+
   & > * {
     cursor: pointer;
-  }
-  &:hover {
-    transform: scale(1.1);
-    z-index: 99;
   }
   & > .checkbox {
     margin-left: 10%;
   }
   &__title {
-    margin: 5px 10%;
+    flex: 1;
+    border: 0;
+    margin: 5px 5%;
     font-size: 1.5em;
     word-wrap: break-word;
+    resize: none;
     &.completed {
       text-decoration: line-through;
+    }
+  }
+  &__delete {
+    margin-right: 10%;
+    min-height: 1.5em;
+    min-width: 1.5em;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(../../assets/minus.png);
+    background-position: center;
+    background-size: cover;
+    &:hover {
+      transform: scale(1.1);
     }
   }
 }
