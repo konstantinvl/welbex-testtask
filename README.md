@@ -1,5 +1,7 @@
 Project is the test task for WelbeX by Konstantin Vlasenko
 
+You can find deploy on [https://konstantinvl-welbex.netlify.app/](https://konstantinvl-welbex.netlify.app/)
+
 ### `npm start`
 
 Runs the app in the development mode.
